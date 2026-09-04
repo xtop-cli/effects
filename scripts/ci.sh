@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Local CI for the xtop effects repo.
+# Local CI for the xtop effects repo (Cargo workspace since M5).
 #
 # Intentionally NOT wired into git: no GitHub Actions, no git hooks. Run it
 # yourself from the repo root:
@@ -8,9 +8,6 @@
 #   ./scripts/ci.sh fmt        # run one stage
 #
 # Stages: fmt | clippy | check | test
-#
-# The repo currently has no workspace yet (xtop-effect-* land in F3); the
-# script skips cleanly until Cargo.toml exists.
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"

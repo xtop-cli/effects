@@ -1,0 +1,12 @@
+[package]
+name = "xtop-effect-fade"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+description = "Fade effect: blends a rendered xtop frame in from black"
+
+[dependencies]
+ratatui.workspace = true
+xtop-effect-api.workspace = true

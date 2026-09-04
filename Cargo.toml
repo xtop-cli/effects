@@ -1,0 +1,14 @@
+[workspace]
+resolver = "2"
+members = ["xtop-effect-fade"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+rust-version = "1.87"
+repository = "https://github.com/xtop-cli/effects"
+
+[workspace.dependencies]
+ratatui = "0.30.2"
+xtop-effect-api = { git = "https://github.com/xtop-cli/api" }
