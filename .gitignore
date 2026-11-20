@@ -1,9 +1,21 @@
 # Rust
-
 /target
 Cargo.lock
 
-# Editors
+# Local development overrides
+/.cargo
+
+# Editors and OS
 .idea/
 .vscode/
 *.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.orig
+*.rej
